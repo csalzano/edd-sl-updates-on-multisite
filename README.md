@@ -12,9 +12,9 @@ EDD provides some [workaround instructions](https://docs.easydigitaldownloads.co
 
 ## Installation
 1. Make sure the `Plugin URI` value in your plugin's header is the site where Easy Digital Downloads is running. That's where we check for an update.
-1. Make sure the plugin header has an `Updateable` line, a file named `edd_mu_updater.php` or a file name `/includes/class-updater.php`. These are the only plugins we will check for updates.
+1. Make sure the plugin header has an `Updateable` line, a file named `edd_mu_updater.php` or a file named `/includes/class-updater.php`. These are the only plugins we will check for updates.
 1. Upload the `edd-sl-updates-on-multisite` directory and the `edd-sl-updates-on-multisite.php` driver file to the `/wp-content/mu-plugins/` directory. This is the [must-use plugins](https://codex.wordpress.org/Must_Use_Plugins) directory, and no activation is necessary.
-1. Create another must-use plugin that provides EDD Software Licensing keys to this plugin using these instructions.
+1. Create another must-use plugin that provides EDD Software Licensing keys to this plugin using [these instructions](https://gist.github.com/csalzano/621deacc33f2482da205f294b445485a).
 1. Upload the plugin you created in the previous step to the `/wp-content/mu-plugins/` directory.
 
 
